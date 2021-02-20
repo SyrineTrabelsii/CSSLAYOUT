@@ -1,0 +1,359 @@
+body {
+    font-family: sans-serif ;
+    color: rgb(136, 136, 136) ;
+    max-width: 800px;
+    margin: auto ;
+}
+
+a {
+   color :rgb(32, 30, 30); 
+   text-decoration: none;
+}
+
+a:visited {
+    color: rgb(32, 30, 30);
+}
+
+.active {
+    color : #5dc6b0
+}
+
+.docplanner-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10 px;
+    
+}
+
+
+.docplanner-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+}
+.docplanner-logo {
+    width: 268px;
+    height: 33px;
+}
+
+.menu {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+}
+
+.introduction {
+    display: flex ;
+    flex-direction : column ;
+    align-items : center ;
+    margin : 20px 0 ;
+}
+
+.introduction-logo {
+    width: 50px ;
+    height: 50px ;
+    background-color:#5dc6b0;
+}
+
+.introduction-title {
+    color: #5dc6b0 ;
+}
+
+.introduction-text {
+    display: flex ;
+}
+
+.introduction-paragraph {
+    margin: 10px;
+
+}
+
+.services {
+    display: flex ;
+}
+
+.service-card {
+    padding: 20px ;
+    border-radius: 8px ;
+    color: white ;
+    margin: 10px ;
+}
+
+.service-card-patient {
+    background-color: #5dc6b0;
+
+}
+
+.service-card-doctor {
+    background-color: #4293db;
+
+
+}
+
+.service-card-clinic {
+    background-color: rgb(58, 58, 141);
+
+}
+
+.service-card-select {
+    background-color: white;
+    padding: 10px ;
+    border-radius : 5px ;
+}
+.brands h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+}
+
+.brands__logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0;
+    width: 58%;
+    list-style: none;
+    padding: auto;
+}
+
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 160px;
+    padding: 10px 25px;
+}
+
+.brands__logos a {
+    display: inline-block;
+    padding: 10px 0;
+}
+.brands__logos .tuotempo {
+    width: 175px;
+}
+
+.brands__logos .gipo {
+    width: 85px;
+}
+
+.brands__logos .clinicloud {
+    width: 90px;
+}
+
+.stats {
+    
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+}
+
+.section__inner {
+    zoom: 1;
+    max-width: 1015px ;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+    background-color: transparent;
+}
+.stats__header {
+    margin-top: 2em;
+    
+}
+
+.stats__header p {
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143
+}
+
+.stats__header p{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.grid {
+    display: grid ;
+}
+
+.col-2 {
+    display : grid;
+    float : none ;    
+    min-height: 1px;
+    padding: 10px;
+    
+}
+
+
+
+
+.stats .section__inner>.grid>.col-2 {
+    width: 50%;
+    float: none;
+    
+}
+
+.information {
+    text-align: center;
+    display : grid ;
+    
+}
+
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.information {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.stats-items {
+  
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    width: 240px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+}
+
+.vert-align {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.offices {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.offices {
+    margin-top: 5.5rem;
+    margin-bottom: 5rem
+}
+
+.offices__header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.offices__header {
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+
+figure {
+    display: block ;
+    margin: 0;
+}
+
+.office__image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    display: block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border: 0;
+}
+
+.office__desc {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em
+}
+
+.office .btn {
+    float: right;
+}
+
+.btn--small {
+    font-size: .625rem;
+    padding: 1em 1.5em;
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    
+}
+.office__inner {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+}
+
+.offices__slider {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap : 10px ;
+}
+
+.join{
+    margin: 5rem auto;
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.join__header{
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center;
+}
+
+.main {
+border-top: 1px solid #eef2f2;
+text-align: center;
+padding: 3em 0;
+}
+
